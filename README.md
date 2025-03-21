@@ -1,24 +1,20 @@
 # Smart Waste Segregator
 
 ## Introduction
-The **Smart Waste Segregator** is an innovative solution designed to automate waste management by efficiently segregating waste into distinct categories. This project leverages sensors and machine learning algorithms to identify and classify waste as biodegradable, non-biodegradable, or recyclable, contributing to a cleaner and more sustainable environment.
+The **Smart Waste Segregator** is an innovative solution designed to automate waste management by efficiently segregating waste into distinct categories. This project leverages sensors  to identify and classify waste as wet or dry contributing to a cleaner and more sustainable environment.
 
 ## Features
-- **Automated Waste Classification**: Uses sensors and image recognition to identify waste type.
+- **Automated Waste Classification**: Uses sensors  to identify waste type.
 - **Efficient Sorting Mechanism**: Automatically separates waste into appropriate bins.
-- **Real-Time Monitoring**: Provides live data on waste levels in bins.
 - **Eco-Friendly Design**: Promotes sustainable waste management practices.
-- **Mobile Application Integration**: Tracks waste levels and sends notifications when bins are full.
+- **Mobile Application Integration**: Tracks waste levels and alerts when bins are full.
 
 ## Components Used
-- Arduino or Raspberry Pi
+- Arduino 
 - Ultrasonic Sensor
 - IR Sensor
 - Servo Motors
-- Camera Module
-- Machine Learning Model for Image Classification
-- Wi-Fi Module (for IoT connectivity)
-- Power Supply
+- Moisture sensor
 
 ## Libraries Required
 Ensure the following libraries are installed for Arduino:
@@ -29,9 +25,11 @@ Ensure the following libraries are installed for Arduino:
 
 ## Working Principle
 1. **Detection**: The waste is placed on the platform.
-2. **Classification**: The camera captures the image, and the machine learning model predicts the waste type.
+2. **Classification**: The sensors classify the waste into wet and dry
 3. **Segregation**: Servo motors move the waste to the appropriate bin.
-4. **Monitoring**: Ultrasonic sensors measure the bin levels, sending updates to the connected mobile application.
+4. **Monitoring**: Ultrasonic sensors measure the bin levels, giving alerts
+
+![image](https://github.com/user-attachments/assets/c8921496-712d-40fa-a3dc-347cd365c510)
 
 ## Installation and Setup
 1. Clone the repository:
@@ -50,10 +48,10 @@ Ensure the following libraries are installed for Arduino:
 
 ## Usage
 - Place waste on the detection platform.
-- Receive notifications when bins are full.
+- Alertswhen bins are full.
 
 ## Future Enhancements
-- Implement AI for improved waste classification.
+- Implement machine learning algorithms to detect biodegradable, non-biodegradable, or recyclable waste
 - Integrate solar power for sustainable operation.
 - Expand waste data analytics for environmental insights.
 
@@ -64,9 +62,9 @@ Contributions are welcome! Please fork the repository, create a new branch, and 
 This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
-- Team Members: [Your Name], [Teammate 1], [Teammate 2]
+- Team Members: Likhitha kc,Jiya Jain
 - Special thanks to our mentors and peers for their support.
 
 ---
-**Contact:** For any inquiries, please reach out at [your-email@example.com].
+**Contact:** For any inquiries, please reach out at likhithakchiranjeevi@gmail.com kjainjiya04@gmail.com
 
