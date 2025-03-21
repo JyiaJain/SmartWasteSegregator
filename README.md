@@ -48,7 +48,7 @@ Ensure the following libraries are installed for Arduino:
 
 ## Usage
 - Place waste on the detection platform.
-- Alertswhen bins are full.
+- Alerts when bins are full.
 
 ## Future Enhancements
 - Implement machine learning algorithms to detect biodegradable, non-biodegradable, or recyclable waste
@@ -62,7 +62,7 @@ Contributions are welcome! Please fork the repository, create a new branch, and 
 This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
-- Team Members: Likhitha kc,Jiya Jain
+- Team Members: Likhitha Kc,Jiya Jain
 - Special thanks to our mentors and peers for their support.
 
 ---
